@@ -1,7 +1,7 @@
 Changing XTerm foreground or background colour
 
 1. open a terminal
-2. run 'touch ~/.Xresources' without the quotes (this will create an empty file titled ".Xresources in the home directory")
+2. run 'touch ~/.Xresources' without the quotes (this will create an empty file titled ".Xresources" in the home directory)
 3. open .Xresources with your preferred text editor
 4. add these lines to .Xresources -
     XTerm.vt100.background: black
