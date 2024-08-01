@@ -1,0 +1,12 @@
+Changing XTerm foreground or background colour
+
+1. open a terminal
+2. run 'touch ~/.Xresources' without the quotes (this will create an empty file titled ".Xresources in the home directory")
+3. open .Xresources with your preferred text editor
+4. add these lines to .Xresources -
+    XTerm.vt100.background: black
+    XTerm.vt100.foreground: grey
+5. replace "black" and "grey" with your preferred colour - see "https://critical.ch/xterm/" for a list of colours supported by XTerm
+6. run 'xrdb -merge ~/.Xresources' (without the quotes) in a terminal
+7. run 'sudo systemctl daemon-reload' (without the quotes) in a terminal to reload all system services
+8. open XTerm to see if your changes were successful
